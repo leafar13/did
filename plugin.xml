@@ -413,7 +413,7 @@ OF WHETHER APPGATE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LIABILITY. -->
         <framework custom="true" src="src/android/build-extras.gradle" type="gradleReference"/>
 
         <lib-file src="libs/android/did-data-8.1.0.aar"/>
-        <lib-file src="libs/android/didm_authenticator_sdk_v8.1.0.jar"/>
+        <lib-file src="libs/android/didm_authenticator_sdk_v8.1.0.aar"/>
         <lib-file src="libs/android/did-tokens-8.1.0.aar"/>
         <lib-file src="libs/android/did-encryptor-8.1.0.aar"/>
         <lib-file src="libs/android/shortcut-1.0.0.aar"/>
