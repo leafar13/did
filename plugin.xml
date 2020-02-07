@@ -17,12 +17,13 @@ OF WHETHER APPGATE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LIABILITY. -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plugin xmlns:android="http://schemas.android.com/apk/res/android"
-        id="DetectIDCordovaPluginq" version="6.1.0"
+        id="DetectIDCordovaPluginBM" version="6.1.0"
         xmlns="http://apache.org/cordova/ns/plugins/1.0">
 
     <!--required setup-->
     <name>DetectIDAuthenticator</name>
-    <description>DetectID Authenticator SDK plugin cordova for Android, iOS platforms</description>
+    <description>DetectID Authenticator SDK plugin cordova for Android, 
+            platforms</description>
     <license>Apache 2.0</license>
     <keywords>didauthenticator,did,easysol,Easy Solutions, Android,iOS, cordova</keywords>
     <author>Easy Solutions, Inc.</author>
@@ -162,7 +163,7 @@ OF WHETHER APPGATE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LIABILITY. -->
         <framework custom="true" embed="true" src="libs/ios/didm_auth_sdk_iOS.framework"/>
         <framework custom="true" embed="true" src="libs/ios/did_sdk_tokens_ios.framework"/>
         <framework custom="true" embed="true" src="libs/ios/did_sdk_data_ios.framework"/>
-        <framework custom="true" embed="true" src="libs/iOS/did_sdk_encrypt_iOS.framework"/>
+        <framework custom="true" embed="true" src="libs/ios/did_sdk_encrypt_iOS.framework"/>
 
         <framework src="Security.framework"/>
         <framework src="SystemConfiguration.framework"/>
