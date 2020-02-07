@@ -17,7 +17,7 @@ OF WHETHER APPGATE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LIABILITY. -->
 
 <?xml version='1.0' encoding='utf-8'?>
 <plugin xmlns:android="http://schemas.android.com/apk/res/android"
-        id="DetectIDCordovaPlugin" version="6.1.0"
+        id="DetectIDCordovaPlugin73" version="6.1.0"
         xmlns="http://apache.org/cordova/ns/plugins/1.0">
 
     <!--required setup-->
@@ -412,10 +412,11 @@ OF WHETHER APPGATE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LIABILITY. -->
 
         <framework custom="true" src="src/android/build-extras.gradle" type="gradleReference"/>
 
-        <lib-file src="libs/android/did-data-8.1.0.aar"/>
-        <lib-file src="libs/android/didm_authenticator_sdk_v8.1.0.aar"/>
-        <lib-file src="libs/android/did-tokens-8.1.0.aar"/>
-        <lib-file src="libs/android/did-encryptor-8.1.0.aar"/>
+        <lib-file src="libs/android/did-data-7.3.1.aar"/>
+        <lib-file src="libs/android/didm_authenticator_sdk_v7.3.1.jar"/>
+        <lib-file src="libs/android/did-tokens-7.3.1.aar"/>
+        <lib-file src="libs/android/did-encryptor-7.3.1.aar"/>
+        <lib-file src="libs/android/mobile-commons-1.0.0.aar"/>    
         <lib-file src="libs/android/shortcut-1.0.0.aar"/>
 
     </platform>
